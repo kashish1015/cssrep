@@ -9,17 +9,67 @@
         a[target="_top"]{
             background-color: yellow;
         }
-        a[target="_top"]{
+        a[target="_blank"]{
             background-color: purple;
         }
-        a[target="_top"]{
+        a[target="_parent"]{
             background-color: pink;
         }
+    body{
+        color:rgb(139, 99, 139);
+    }
+    div{
+        background-color: currentcolor;
+    }
     </style>
 </head>
 <body>
     <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
     <a href="http://www.goggle.com" target="_blank">goggle.com</a>
     <a href="http://www.youtube.com" target="_parent">youtube.com</a>
+    <div class="class1">
+        <div class="class2">Hello World</div>
+        <div class="class3">Hi</div>
+    </div>
+    <div data-color="red">This will be red</div>
+    <div data-color="green">This will be red</div>
+    <div data-background="red">This will not be red</div>
+    <div class="foo-123">This will be red</div>
+    <div class="foo123">This will be red</div>
+    <div class="bar123foo">This will be red</div>
+    <div class="barfooo123">This will be red</div>
+    <div class="barfoO">This will not be red</div>
+
+    <div>
+        <span>hiii</span>
+         <span>byeee</span>
+          <span><div>namaste</div></span>
+    </div>
+
+    <a>
+        <span>this is also sibiling</span>
+        <span>this is sibiling</span>
+    </a>
+
+    <p>My text is not red</p>
+    <p>My text is red</p>
+    <hr>
+    <h1>And now a title</h1>
+
+    <div class="warning">
+        <p>warning copy</p>
+    </div>
+
+    <div class="important warning">
+        <p class="important">really important warning</p>
+    </div>
+
+    <input type="number" min="10" max="20" value="15">
+
+    
+    
+</body>
+</html>
+    
 </body>
 </html>

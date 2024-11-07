@@ -1,0 +1,40 @@
+.class1 .class2{
+    background-color: red;
+}
+
+.class1.class2{
+    background-color: blue;
+}
+.class2>.class3{
+    background-color: blueviolet;
+}
+div[data-color="red"]{
+        color:red;
+    }
+[class*="foo"]{
+    color:red;
+}
+div span{
+    background-color: blue;
+}
+a span{
+    background-color: aqua;
+}
+p~p{
+    color:red;
+}
+.warning{
+    background-color:brown;
+    color:black;
+}
+.important.warning{
+    background-color:bisque;
+    color:black;
+}
+input:in-range{
+    border:5px solid blue;
+}
+
+
+
+
