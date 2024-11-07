@@ -5,71 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css selectors</title>
     <link rel="stylesheet" href="./style.css">
-    <style>
-        a[target="_top"]{
-            background-color: yellow;
-        }
-        a[target="_blank"]{
-            background-color: purple;
-        }
-        a[target="_parent"]{
-            background-color: pink;
-        }
-    body{
-        color:rgb(139, 99, 139);
-    }
-    div{
-        background-color: currentcolor;
-    }
-    </style>
+    
+    
+    
 </head>
 <body>
     <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
     <a href="http://www.goggle.com" target="_blank">goggle.com</a>
     <a href="http://www.youtube.com" target="_parent">youtube.com</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem hic animi laborum? Cumque blanditiis dolores dignissimos esse. Facilis corrupti magni asperiores repellendus autem.</p>
+    <div class="container">
+        <h1>heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quos?</p>
+    </div>
     <div class="class1">
         <div class="class2">Hello World</div>
-        <div class="class3">Hi</div>
     </div>
-    <div data-color="red">This will be red</div>
-    <div data-color="green">This will be red</div>
-    <div data-background="red">This will not be red</div>
-    <div class="foo-123">This will be red</div>
-    <div class="foo123">This will be red</div>
-    <div class="bar123foo">This will be red</div>
-    <div class="barfooo123">This will be red</div>
-    <div class="barfoO">This will not be red</div>
+    <!-- class=10;
+   element=1;
+   id=100;
+   inline=1000;
+   universal=0;
+   .blue.red == blue ke baad ka red is immediate child
+   .blue .red == blue ke andar kitne bhi div ho kahi bhi it will be applied  -->
+ <div class="class1">
+    <div class="class2">hellooo</div>
+     <div class="class3">hi</div>
+</div>
 
+<br>
+<div data-color="red">this is red div</div>
+<div data-color="green">this is green div</div>
+<div data-background="red">this is not a red div</div>
+<br>
+<div class="foo-123">this will be red</div>
+<div class="foo123">this will be red</div>
+<div class="bar123foo">this will be red</div>
+<div class="foo-123">this will be red</div>
+<div class="barfoo123">this will be red</div>
+<div class="barfo0">this will not be red</div>
+<br>
+<div class="foo-123">this is Red</div>
+<div class="foobar-234">this is Red</div>
+<div class="foo-input">this is NOT red</div>
+<br>
+
+<div class="foobar-file">this is Red</div>
+ <div class="foobar-file">this is Red</div>
+ <div class="fobar-input">this is NOT at all red</div>
+ <br>
+ <br>
+ <div>
+   <span>
+    <span>hiee</span>
+    <span>byeeee</span>
+      <span>
+        <div>why</div>
+      </span>
+   </span>
+   <a>
+      <span>this is also sibling</span>
+      <div>hie</div>
+      <span>this is sibling</span>
+  </a>
+  <p>my text isnt red</p>
+  <p>my text is red</p>
+  <p>my text is red</p>
+<br>
+<br>
+<p>twinkle twinkle lil star</p>
+<hr>
+<h1>how i wonder wut u are ?</h1>
+<div class="warn">
+    <div class="foobar-file">this is Red</div>
+    <div class="foobar-file">this is Red</div>
+    <div class="fobar-input">this is NOT at all red</div>
+    <br>
+    <br>
     <div>
-        <span>hiii</span>
-         <span>byeee</span>
-          <span><div>namaste</div></span>
-    </div>
+      <span>
+       <span>hiee</span>
+       <span>byeeee</span>
+         <span>
+           <div>why</div>
+         </span>
+      </span>
+      <a>
+         <span>this is also sibling</span>
+         <div>hie</div>
+         <span>this is sibling</span>
+     </a>
+     <p>my text isnt red</p>
+     <p>my text is red</p>
+     <p>my text is red</p>
+   <br>
+   <br>
+   <p>twinkle twinkle lil star</p>
+   <hr>
+   <h1>how i wonder wut u are ?</h1>
+   <div class="warn">
+   
 
-    <a>
-        <span>this is also sibiling</span>
-        <span>this is sibiling</span>
-    </a>
-
-    <p>My text is not red</p>
-    <p>My text is red</p>
-    <hr>
-    <h1>And now a title</h1>
-
-    <div class="warning">
-        <p>warning copy</p>
-    </div>
-
-    <div class="important warning">
-        <p class="important">really important warning</p>
-    </div>
-
-    <input type="number" min="10" max="20" value="15">
-
-    
     
 </body>
 </html>
     
-</body>
-</html>
+    
+    
